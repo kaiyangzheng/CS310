@@ -1,0 +1,10 @@
+// Comparisons with generics
+// 5/24/22
+
+/*
+ * String one = "hello world";
+ * String two = "hello world";
+ * if (one.equals(two)){
+ * System.out.println("they are the same");
+ * }
+ */
