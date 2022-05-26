@@ -22,4 +22,6 @@ java.lang.Exception
         }
     }
 
+    throw new FileFormatException("Your file is not well formatted");
+
 */
