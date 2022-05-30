@@ -22,9 +22,8 @@ public E removeFirst(){
     }else{
         head = head.next;
     }
+    
     currentSize++;
     return tmp;
-
-
 }
 */

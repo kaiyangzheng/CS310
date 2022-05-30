@@ -32,4 +32,24 @@ What if head is null?
 - NullPointerException - temp.next does not exist since temp => head => null
 - add a check
 
+Complexity - O(n)
+- How can I get around this?
+- add new pointer tail - points to last Node in the list
+
+public void addLast(E obj){
+    Node<E> node = new Node<E>(obj);
+    if (head == null){
+        head = tail = node;
+        currentSize++;
+        return;
+    }
+    tail.next = node;
+    tail = node;
+    currentSize++;
+    return;
+}
+
+Complexity - O(1);
+= uses a tail pointer
+
 */
