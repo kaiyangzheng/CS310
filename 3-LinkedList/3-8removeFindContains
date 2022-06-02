@@ -26,4 +26,10 @@ public E remove(E obj){
     }
     return null;
 }
+
+Find a specific element - contains()
+
+public boolean contains(E obj){
+    
+}
 */
