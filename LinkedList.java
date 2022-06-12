@@ -1,5 +1,4 @@
 import java.util.Iterator;
-import java.util.NoSuchElementException;
 
 public class LinkedList<E> implements Iterable<E> {
     class Node<E> {
