@@ -1,0 +1,8 @@
+// Introduction and Tree Levels
+// 6/12/22
+
+/*
+Heap
+- parent is > children
+
+*/
